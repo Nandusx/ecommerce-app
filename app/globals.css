@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+div {
+  margin-top: 10px;
+}
+
+.product-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 30px;
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
